@@ -32,7 +32,6 @@ const getPokemon = async (id: number): Promise<void> => {
 const showPokemon = (pokemon : IPokemon): void => {
   let output: string = `
     <div class="card">
-      <div class="id">${pokemon.id}.</div>
       <img src="${pokemon.image}" />
       <h2>${pokemon.name}</h2>
       <div>${pokemon.type}</div>
@@ -40,5 +39,7 @@ const showPokemon = (pokemon : IPokemon): void => {
   `;
   container.innerHTML += output;
 }
+
+// <div class="id">${pokemon.id}.</div>
 
 fetchData();

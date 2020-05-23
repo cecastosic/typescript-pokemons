@@ -65,7 +65,8 @@ var getPokemon = function (id) { return __awaiter(void 0, void 0, void 0, functi
     });
 }); };
 var showPokemon = function (pokemon) {
-    var output = "\n    <div class=\"card\">\n      <div class=\"id\">" + pokemon.id + ".</div>\n      <img src=\"" + pokemon.image + "\" />\n      <h2>" + pokemon.name + "</h2>\n      <div>" + pokemon.type + "</div>\n    </div>\n  ";
+    var output = "\n    <div class=\"card\">\n      <img src=\"" + pokemon.image + "\" />\n      <h2>" + pokemon.name + "</h2>\n      <div>" + pokemon.type + "</div>\n    </div>\n  ";
     container.innerHTML += output;
 };
+// <div class="id">${pokemon.id}.</div>
 fetchData();
