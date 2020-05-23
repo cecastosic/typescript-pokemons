@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Pacifico", sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Pacifico", sans-serif;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+main {
+    width: 100%;
+}
+
+main > div {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.card {
+    border: 1px solid rgba(204, 204, 204, 0.6);
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1);
+    margin: 1em;
+    width: 12em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.card .id {
+    font-family: "Pacifico", sans-serif;
+    font-size: 2em;
+}
