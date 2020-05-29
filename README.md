@@ -1,4 +1,6 @@
 # typescript-pokemons
 A small Pokemon app using HTML, CSS, and TypeScript
 
-![image](https://user-images.githubusercontent.com/10253713/82764636-908c4a80-9e10-11ea-89ec-7cfb5611871c.png)
+![image](https://user-images.githubusercontent.com/10253713/83263950-ad819e80-a1bf-11ea-9750-7341a65acf1d.png)
+
+
