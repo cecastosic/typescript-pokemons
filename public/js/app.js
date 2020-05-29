@@ -56,7 +56,7 @@ var getPokemon = function (id) { return __awaiter(void 0, void 0, void 0, functi
                 fetchedPokemon = {
                     id: pokemon.id,
                     name: pokemon.name,
-                    image: "" + pokemon.sprites.front_default,
+                    image: "https://pokeres.bastionbot.org/images/pokemon/" + pokemon.id + ".png",
                     type: pokemonType
                 };
                 showPokemon(fetchedPokemon);

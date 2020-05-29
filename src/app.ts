@@ -22,7 +22,7 @@ const getPokemon = async (id: number): Promise<void> => {
   const fetchedPokemon = {
     id: pokemon.id,
     name: pokemon.name,
-    image: `${pokemon.sprites.front_default}`,
+    image: `https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png`,//`${pokemon.sprites.front_default}`,
     type: pokemonType
   }
   

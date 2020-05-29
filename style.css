@@ -37,11 +37,16 @@ main > div {
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.1);
     margin: 1em;
     width: 12em;
-    padding: 1.5em;
+    padding: 0 0 1.5em;
     text-align: center;
 }
 
 .card .id {
     font-family: "Pacifico", sans-serif;
     font-size: 2em;
+}
+
+.card img {
+    padding: 0.6em;
+    width: 100%;
 }
